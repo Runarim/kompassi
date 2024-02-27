@@ -94,20 +94,6 @@ fields:
       - slug: abroad
         title: Abroad
 
-  - slug: helper
-    title: Will you have a helper with you
-    type: SingleSelect
-    required: true
-    choices:
-      - slug: help_yes
-        title: "Yes"
-      - slug: help_no
-        title: "No"
-
-  - slug: help_name
-    title: Helper's name
-    type: SingleLineText
-    required: false
 
   - slug: comments
     title: Free space
